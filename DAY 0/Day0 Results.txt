@@ -1,0 +1,18 @@
+passwordFile = open('SecretPasswordFile.txt')
+    secretPassword = passwordFile.read()
+    print('Enter your password.')
+      typedPassword = input()
+    if typedPassword == secretPassword:
+        print('Access granted')
+    if typedPassword == '12345':
+        print('That password is one that an idiot puts on their luggage.')
+    else:
+        print('Access denied')
+
+Understanding :
+
+So ,the above code elicits the validation of password stored in SecretPasswordFile.txt against the possible Correct values and values for which the condition is stated in the if statement.
+
+1. Point to note is that the SecretPasswordFile.txt is not closed ( needs to be closed as a good coding practice ).
+
+2. The Statements Access granted and Access denied may both get printed in case the password is other than 12345 which makes no sense ,instead would be better to use ( if elif else ) as switch is not available in Python.

@@ -1,0 +1,5 @@
+Task 1 - Use 
+ pyautogui to automate scrolling through a website with a scroll down every 15-20 seconds depending on your reading speed
+
+
+Task 2 - Use pyautogui to build a house in MS paint
